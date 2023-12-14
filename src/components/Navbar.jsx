@@ -17,12 +17,7 @@ const Navbar = () => {
 					<img src={logo} alt="Bolt logo" className="h-8" />
 					<div className="flex place-items-center text-center gap-8 text-[#ffffff]">
 						<div className="flex text-center h-full gap-1">
-							<img
-								src={ng}
-								alt="ng"
-								className="w-[20px] h-[22px]border rounded-full-white "
-							/>
-							<Button text="Nigeria(EN)" />
+							<Button name="Nigeria(EN)" icon={ng} />
 							<img
 								src={down}
 								alt="chevron-down"
@@ -33,7 +28,7 @@ const Navbar = () => {
 						{/* <div className="">{dropDown ? <></> : ""}</div> */}
 						<a href="">Support</a>
 						<div>
-							<Button text="Sign Up" />
+							<Button name="Sign Up" />
 						</div>
 
 						<a href="">
