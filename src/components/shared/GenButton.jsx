@@ -4,7 +4,7 @@ const GenButton = ({text, pt, pr, pb, pl, bg, color, fw, fs}) => {
 			{/* <input type='submit' value={value} /> */}
 			<button
 				type="submit"
-				className="flex items-center gap-2 font-normal text-sm h-full border rounded-full "
+				className="flex items-center gap-2 font-normal text-sm h-full border border-none rounded-full "
 				style={{
 					paddingRight: pr,
 					paddingTop: pt,
