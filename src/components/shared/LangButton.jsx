@@ -1,4 +1,4 @@
-const Button = ({icon, name}) => {
+const LangButton = ({icon, name}) => {
     return (
 			<>
 				{/* <input type='submit' value={value} /> */}
@@ -17,4 +17,4 @@ const Button = ({icon, name}) => {
 		);
 }
 
-export default Button;
+export default LangButton;
