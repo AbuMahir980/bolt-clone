@@ -13,7 +13,7 @@ const Navbar = () => {
 	};
 	return (
 		<>
-			<div className="flex items-center h-16 bg-[#2f313f] justify-center text-center text-sm leading-[20px] font-normal">
+			<div className="flex items-center h-16  justify-center text-center text-sm leading-[20px] font-normal">
 				<div className="flex justify-between w-4/5">
 					<img src={logo} alt="Bolt logo" className="h-8" />
 					<div className="flex place-items-center text-center gap-8 text-[#ffffff]">
