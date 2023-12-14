@@ -27,10 +27,11 @@ const Navbar = () => {
 						<div className="">
 							{dropDown ? (
 								<div>
-									{" "}
-									<select name="" id="">
-										<option value="english">Ghana</option>
-									</select>{" "}
+									<div>
+										<span>Select your country</span>
+										<div></div>
+									</div>
+									<div></div>
 								</div>
 							) : (
 								""
