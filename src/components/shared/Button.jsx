@@ -1,4 +1,4 @@
-const Button = ({logo, text}) => {
+const Button = ({text}) => {
     return (
 			<>
 				{/* <input type='submit' value={value} /> */}
@@ -6,7 +6,6 @@ const Button = ({logo, text}) => {
 					type="submit"
 					className="flex items-center gap-2 font-normal text-sm h-full "
 				>
-					<img src={logo} alt="ng" className="w-[20px] border rounded-full" />
 					{text}
 				</button>
 			</>
