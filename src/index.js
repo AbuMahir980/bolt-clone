@@ -16,9 +16,9 @@ root.render(
   <React.StrictMode>
     {/* <Navbar /> */}
     {/* <Main /> */}
-    <Driver />
-    <Courier />
-    <ShopOwner />
+    {/* <Driver /> */}
+    {/* <Courier /> */}
+    {/* <ShopOwner /> */}
     <FleetOwner />
     {/* <Hero /> */}
   </React.StrictMode>

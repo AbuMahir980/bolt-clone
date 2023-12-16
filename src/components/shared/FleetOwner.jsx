@@ -21,11 +21,11 @@ const FleetOwner = () => {
 							</div>
 							<div>
 								<h6 className=" text-lg font-semibold text-[#2f313f] mb-[1.5px]">
-									Reach new customers
+									Boost your earnings
 								</h6>
 								<p className="text-base font-normal text-[rgba(18,29,43,0.6)]">
-									Millions of our users are ordering food or goods from
-									restaurants and stores just like yours.
+									Our large rider community means more orders per day and higher
+									earnings.
 								</p>
 							</div>
 						</div>
@@ -37,11 +37,10 @@ const FleetOwner = () => {
 							</div>
 							<div>
 								<h6 className="text-lg font-semibold text-[#2f313f] mb-[1.5px]">
-									Increase your earnings
+									Manage your assets
 								</h6>
 								<p className="text-base font-normal text-[rgba(18,29,43,0.6)]">
-									Our large network of users brings more customers and business
-									to you.
+									Easily view your vehicles, drivers and their current status.
 								</p>
 							</div>
 						</div>
@@ -53,11 +52,11 @@ const FleetOwner = () => {
 							</div>
 							<div>
 								<h6 className="text-lg font-semibold text-[#2f313f] mb-[1.5px]">
-									Let us handle delivery
+									Keep track of performance
 								</h6>
 								<p className="text-base font-normal text-[rgba(18,29,43,0.6)]">
-									We’ll take care of the logistics, while you focus on running
-									your business.
+									Get easy access to each driver’s completed trips, invoices,
+									and payout information.
 								</p>
 							</div>
 						</div>
