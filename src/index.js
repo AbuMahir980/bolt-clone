@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 // import Main from './components/Main';
 import Driver from './components/shared/DriverComp';
 import Courier from './components/shared/CourierComp';
+import ShopOwner from './components/shared/ShopOwnerComp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
     {/* <Main /> */}
     <Driver />
     <Courier />
+    <ShopOwner />
     {/* <Hero /> */}
   </React.StrictMode>
 );
