@@ -6,6 +6,7 @@ import reportWebVitals from './test/reportWebVitals';
 import Hero from './components/Hero';
 // import Main from './components/Main';
 import Driver from './components/shared/DriverComp';
+import Courier from './components/shared/CourierComp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     {/* <Navbar /> */}
     {/* <Main /> */}
     <Driver />
+    <Courier />
     {/* <Hero /> */}
   </React.StrictMode>
 );
