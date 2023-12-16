@@ -9,7 +9,7 @@ const Driver = () => {
 						<img src={driver} alt="" className="rounded-[1.5rem]" />
 					</div>
 					<div className="flex flex-col justify-start w-[30rem] h-[25rem] self-center ">
-						<h2 className="font-semibold text-[40px] leading-[48px] text-[#2f313f] mb-5">
+						<h2 className="font-bold text-[40px] leading-[48px] text-[#2f313f] mb-5">
 							Drive and earn money
 						</h2>
 						<div className="flex flex-col">

@@ -1,16 +1,16 @@
 import GenButton from "./GenButton";
-import shopOwner from "../../assets/image/restaurant-store-owner.webp";
+import fleet from "../../assets/image/fleet-owner.webp";
 
-const ShopOwner = () => {
+const FleetOwner = () => {
 	return (
 		<>
 			<div className="flex justify-center gap-20">
 				<div className="w-[35rem]">
-					<img src={shopOwner} alt="" className="rounded-[1.5rem]" />
+					<img src={fleet} alt="" className="rounded-[1.5rem]" />
 				</div>
 				<div className="flex flex-col justify-start w-[30rem] h-[25rem] self-center ">
 					<h2 className="font-bold text-[40px] leading-[48px] text-[#2f313f] mb-5">
-						Increase your sales
+						Grow your transport business
 					</h2>
 					<div className="flex flex-col">
 						<div className="flex text mb-3">
@@ -81,4 +81,4 @@ const ShopOwner = () => {
 	);
 };
 
-export default ShopOwner;
+export default FleetOwner;

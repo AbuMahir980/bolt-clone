@@ -8,6 +8,8 @@ import Hero from './components/Hero';
 import Driver from './components/shared/DriverComp';
 import Courier from './components/shared/CourierComp';
 import ShopOwner from './components/shared/ShopOwnerComp';
+import FleetOwner from './components/shared/FleetOwner';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +19,7 @@ root.render(
     <Driver />
     <Courier />
     <ShopOwner />
+    <FleetOwner />
     {/* <Hero /> */}
   </React.StrictMode>
 );
