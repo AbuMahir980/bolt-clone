@@ -4,11 +4,12 @@ import './css/index.css';
 import reportWebVitals from './test/reportWebVitals';
 // import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-// import Main from './components/Main';
+import Main from './components/Main';
 import Driver from './components/shared/DriverComp';
 import Courier from './components/shared/CourierComp';
 import ShopOwner from './components/shared/ShopOwnerComp';
 import FleetOwner from './components/shared/FleetOwner';
+import Home from './pages/Home';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,8 +20,9 @@ root.render(
     {/* <Driver /> */}
     {/* <Courier /> */}
     {/* <ShopOwner /> */}
-    <FleetOwner />
+    {/* <FleetOwner /> */}
     {/* <Hero /> */}
+    <Home />
   </React.StrictMode>
 );
 

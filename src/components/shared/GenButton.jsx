@@ -1,4 +1,4 @@
-const GenButton = ({text, pt, pr, pb, pl, bg, color, fw, fs}) => {
+const GenButton = ({ text, pt, pr, pb, pl, bg, color, fw, fs, border }) => {
 	return (
 		<>
 			{/* <input type='submit' value={value} /> */}
@@ -12,8 +12,9 @@ const GenButton = ({text, pt, pr, pb, pl, bg, color, fw, fs}) => {
 					paddingLeft: pl,
 					background: bg,
 					color: color,
-                    fontWeight: fw,
-                    fontSize: fs
+					fontWeight: fw,
+					fontSize: fs,
+					border: border,
 				}}
 			>
 				{text}
