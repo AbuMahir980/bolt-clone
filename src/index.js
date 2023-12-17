@@ -11,20 +11,14 @@ import ShopOwner from './components/shared/ShopOwnerComp';
 import FleetOwner from './components/shared/FleetOwner';
 import Home from './pages/Home';
 import Cities from './components/shared/Cities';
+import World from './components/shared/World';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Navbar /> */}
-    {/* <Main /> */}
-    {/* <Driver /> */}
-    {/* <Courier /> */}
-    {/* <ShopOwner /> */}
-    {/* <FleetOwner /> */}
-    {/* <Hero /> */}
-    <Home />
-    {/* <Cities /> */}
+    {/* <Home /> */}
+    <World />
   </React.StrictMode>
 );
 
