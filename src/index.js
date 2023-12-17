@@ -10,6 +10,7 @@ import Courier from './components/shared/CourierComp';
 import ShopOwner from './components/shared/ShopOwnerComp';
 import FleetOwner from './components/shared/FleetOwner';
 import Home from './pages/Home';
+import Cities from './components/shared/Cities';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +24,7 @@ root.render(
     {/* <FleetOwner /> */}
     {/* <Hero /> */}
     <Home />
+    {/* <Cities /> */}
   </React.StrictMode>
 );
 

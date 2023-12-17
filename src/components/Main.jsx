@@ -11,6 +11,7 @@ import food from "../assets/image/food.png";
 import carSharing from "../assets/image/car-sharing.png";
 import micromobility from "../assets/image/micromobility.png";
 import business from "../assets/image/business.png";
+import Cities from "./shared/Cities";
 
 const Main = () => {
 	const [change, setChange] = useState(0);
@@ -167,6 +168,9 @@ const Main = () => {
 						</div>
 					</div>
 				</div>
+                <div className="mt-24">
+                    <Cities />
+                </div>
 			</div>
 		</>
 	);
