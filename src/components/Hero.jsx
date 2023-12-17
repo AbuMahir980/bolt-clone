@@ -10,8 +10,8 @@ const Hero = () => {
 				<div className="absolute inset-x-0 top-0">
 					<Navbar />
 				</div>
-				<div className="flex justify-center absolute top-24 h-[75%]">
-					<div className="w-4/5 items-end px-5 py-5">
+				<div className="flex justify-center max-w-7xl mx-24 absolute top-24 h-[75%]">
+					<div className=" items-end px-5 py-5">
 						<div className="w-2/4 h-[98%] py-6">
 							<h1 className="mb-7 mt-5 text-[64px] text-[#ffffff] font-bold leading-[72px]">
 								Go wherever, whenever
